@@ -1,9 +1,10 @@
 {
   "name": "react-portfolio-template",
-  "version": "3.0",
+  "version": "1.0",
   "private": true,
-  "engines": { "node": "16.13.1",
-  "yarn": "1.22.17"}, 
+  "engines": {
+    "node": "10"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
