@@ -1,14 +1,9 @@
 {
-  "homepage": "https://khanhmomo.github.io/khanhtran",
   "name": "react-portfolio-template",
   "version": "1.0",
   "private": true,
-  "engines": {
-    "node": "16.13.1"
-  },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
