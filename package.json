@@ -2,7 +2,11 @@
   "name": "react-portfolio-template",
   "version": "3.0",
   "private": true,
+  "engines": { "node": "16.13.1",
+  "yarn": "1.22.17"}, 
   "scripts": {
+    "postinstall": "npm run webpack",
+    "webpack": "webpack",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
